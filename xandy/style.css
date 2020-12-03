@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#drg {
+    height: 100px;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    z-index: 999;
+    transition: all 1s ease-out;
+}

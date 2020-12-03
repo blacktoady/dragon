@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#drg {
+    height: 100px;
+    position: relative;
+    left: 5px;
+    bottom: -50px;
+    z-index: 999;
+    transition: all 1s ease-out;
+}
+.road{
+    display: block;
+    position: relative;
+    bottom: 0;
+    background-color: #dedede;
+    height: 200px;
+}
