@@ -3,20 +3,48 @@
     padding: 0;
 }
 body {
-    border: 5px solid black;
+    height: 100vh;
+    background-color: #92e5fc;
+}
+.cloud {
+    height: 70px;
+    position: absolute;
+}
+#cloud-1 {
+    top: -30px;
+    left: 335px;
+}
+#cloud-2 {
+    left: 75px;
+    top: 20px;
+}
+#cloud-3 {
+    right: 35px;
+}
+.sun {
+    height: 50px;
+    position: absolute;
+    left: 242px;
+}
+.tree {
+    position: absolute;
+    height: 300px;
+    z-index: 999;
+    top: 50px;
+    right: 75px;
 }
 #drg {
     height: 100px;
     position: relative;
     left: 5px;
     bottom: -50px;
-    z-index: 999;
+    z-index: 555;
     transition: all 1s ease-out;
 }
 .road{
     display: block;
     position: relative;
     bottom: 0;
-    background-color: #dedede;
-    height: 200px;
+    background-color: #a3f792;
+    height: calc(100vh - 100px);
 }
