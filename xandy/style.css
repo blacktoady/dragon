@@ -48,6 +48,11 @@ main {
     bottom: 70px;
     left: 30px;
 }
+@media screen and (max-height: 400px) {
+    .rock {
+        display: none;
+    }
+}    
 #drg {
     height: 100px;
     position: absolute;
