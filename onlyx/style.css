@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    border: 5px solid black;
+}
 #drg {
     height: 100px;
     position: relative;
